@@ -1,0 +1,51 @@
+.box {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item_img{
+  width: 300px;
+  height: 300px;
+}
+
+.main{
+  margin-top: 5vh;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bt {
+  margin: 5vh;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.bt button {
+  margin: 0 20px;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 3px gray ;
+}
+
+.bt button:hover {
+  cursor: pointer;
+}
+
+.bt button img {
+  width: 60%;
+  height: 60%;
+}
+
+
+.win {  border: 5px solid rgb(2, 216, 2);  color: rgb(2, 216, 2); }
+.lose {  border: 5px solid rgb(119, 0, 0);  color: rgb(116, 0, 0); }
+.tie {  border: 5px solid black;  color: black; }
